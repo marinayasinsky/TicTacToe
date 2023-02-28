@@ -1,4 +1,4 @@
-Tic Tac Toe Game
+
 This is a simple Tic Tac Toe game built using HTML, CSS, and JavaScript. It is designed to be a two player game, where each player takes turns marking spaces on the game board. The game ends when one player gets three in a row, or when all spaces on the board are filled.
 
 Features
