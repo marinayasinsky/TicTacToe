@@ -23,3 +23,11 @@ FreeCodeCamp.org: Build Tic Tac Toe With JavaScript
 W3Schools: CSS Grid
 License
 This project is licensed under the MIT License. See the LICENSE file for more details.
+
+
+
+Notes:
+Day1
+* Creating Glow Effects with CSS and box shadowing 
+https://codersblock.com/blog/creating-glow-effects-with-css/
+* 

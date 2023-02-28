@@ -1,23 +1,111 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
+*{
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 body {
-    font-family: 'Finger Pain', cursive;
     color: var(--orange);
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+    font-family: 'Finger Paint', cursive;
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 6vw;
+    text-transform: uppercase;
+    color:  #F2C14E;
+}
+
+
+.container {
+    padding: 10vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #37505C;
+    border-radius: 70%;
+    box-shadow:
+      inset 0 0 50px #fff,      /* inner white */
+      inset 20px 0 80px #f0f,   /* inner left magenta short */
+      inset -20px 0 80px #0ff,  /* inner right cyan short */
+      inset 20px 0 300px #f0f,  /* inner left magenta broad */
+      inset -20px 0 300px #0ff, /* inner right cyan broad */
+      0 0 50px #fff,            /* outer white */
+      -10px 0 80px #f0f,        /* outer left magenta */
+      10px 0 80px #0ff;         /* outer right cyan */
+}
+
+
+
+#gameboard {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    border-radius: 30%;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #49fb35;
+    font-size: 120px;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+    box-shadow:
+    inset 60px 0 120px rgb(242, 203, 8),  /* left orange */
+    inset -60px 0 120px #0ff; /* right cyan */
+    border-radius: 60%;
+  
+}
+.box:nth-child(3n) {
+    border-right: none;
+}
+.box:nth-child(6) ~ .box {
+    border-bottom: none;
+} 
+
+.scoreboard {
+    display: flex;
     margin-bottom: 2rem;
+}
+
+.player-one {
+    border-radius: 100%;
+    color: #ef3fb5;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+}
+
+.player-two {
+    border-radius: 100%;
+    color: #24dd8d;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+}
+
+
+
+button {
+    padding: 1.2vw 2.4vw;
+    border-radius: 7.4vw;
+    color: #333;
+    border-color: blue;
+    font-size: 18px;
+    transition: 200ms transform;
+    font-weight: 500;
+    background-color: rgb(153, 145, 222);
+}
+button:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
 }

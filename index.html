@@ -5,16 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./index.js" defer></script>
-    <link rel="stylesheet" href="style.css" media="screen" title="no title">
-    <link rel="preconnect" href="https://fonts.google.com/specimen/Finger+Paint">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet"> 
     <title>Tic Tac Toe Game</title>
 </head>
 <body>
     <div class="container">
-		<h1 ide = "playerText">Tic Tac Toe</h1>
-      <button id="restartBtn">Restart</button>
+        <h1 id= "playerText">Tic Tac Toe</h1>
+<br>
+<button id="restartBtn">Restart</button>
+<br>
+
+        <div class="scoreboard">
+			<p class="player-one">Player One: 0</p>
+			<p class="player-two">Player Two: 0</p>
+		</div>
 
     <div id="gameboard">
             <div class="box" id="0"></div>
@@ -27,6 +34,7 @@
 			<div class="box" id="7"></div>
 			<div class="box" id="8"></div>
     </div>
+    
 </div>	
 	
 </body>
