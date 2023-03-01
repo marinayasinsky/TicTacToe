@@ -5,18 +5,16 @@
 }
 
 div {
-    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 body {
-    color: var(--orange);
     font-family: 'Finger Paint', cursive;
 }
 
 h1 {
-    font-size: 6vw;
+    font-size: 8vw;
     text-transform: uppercase;
     color:  #F2C14E;
 }
@@ -24,13 +22,15 @@ h1 {
 
 .container {
     padding: 10vw;
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    flex-flow: column wrap;
+    flex-wrap: wrap;
     background-color: #37505C;
-    border-radius: 70%;
+    border-radius: 50%;
     box-shadow:
       inset 0 0 50px #fff,      /* inner white */
       inset 20px 0 80px #f0f,   /* inner left magenta short */
@@ -45,34 +45,30 @@ h1 {
 
 
 #gameboard {
-    width: 300px;
+    align-items: center;
+    justify-content: center;
+    width: 37vw;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 40px;
-    border-radius: 30%;
+    margin-top: 5vw;
 }
 .box {
-    height: 100px;
-    width: 100px;
+    height: 12vw;
+    width: 12vw;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #49fb35;
-    font-size: 120px;
+    font-size: 20vw;
     border-right: 2px solid;
     border-bottom: 2px solid;
     box-shadow:
-    inset 60px 0 120px rgb(242, 203, 8),  /* left orange */
-    inset -60px 0 120px #0ff; /* right cyan */
+    inset 60px 0 120px rgb(237, 127, 76),  
+    inset -60px 0 120px #0ff; 
     border-radius: 60%;
   
 }
-.box:nth-child(3n) {
-    border-right: none;
-}
-.box:nth-child(6) ~ .box {
-    border-bottom: none;
-} 
+
 
 .scoreboard {
     display: flex;

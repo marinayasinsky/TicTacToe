@@ -1,33 +1,35 @@
+# Tic Tac Toe Game
 
-This is a simple Tic Tac Toe game built using HTML, CSS, and JavaScript. It is designed to be a two player game, where each player takes turns marking spaces on the game board. The game ends when one player gets three in a row, or when all spaces on the board are filled.
+This is a simple two-player Tic Tac Toe game built using HTML, CSS, and JavaScript. The game features a responsive and visually attractive design, with a glowing effect that adds a touch of fun and excitement.
 
-Features
-Two player game
-Win state: When one player gets three in a row
-Lose state: When all spaces on the board are filled and no player has won
-Score tracking: Keeps track of how many times each player has won
-Getting Started
-To play the game, simply open the index.html file in your web browser.
+## How to Play
 
-How to Play
-The game starts with an empty 3x3 grid.
-Player 1 (X) goes first, and marks one of the spaces on the grid.
-Player 2 (O) goes next, and marks another space on the grid.
-Players take turns marking spaces on the grid until one player gets three in a row, or until all spaces on the grid are filled.
-If a player gets three in a row, they win the game.
-If all spaces on the grid are filled and no player has won, the game is a tie.
-Acknowledgements
-This game was built with the help of the following resources:
+To play the game, simply click on the cell where you want to place your marker (`X` or `O`). The first player to get three in a row (horizontally, vertically, or diagonally) wins the game. If all cells are filled and there is no winner, the game is considered a tie.
 
-FreeCodeCamp.org: Build Tic Tac Toe With JavaScript
-W3Schools: CSS Grid
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+To start a new game, click the "Reset Game" button.
 
+## Features
 
+- Two-player game (either against the computer or against another player)
+- Visually attractive design with glowing effect
+- Responsive layout that adapts to different screen sizes
+- Keeps track of each player's score
+- Easy-to-use reset button to start a new game
 
-Notes:
-Day1
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- Dome 
+
+## Resources 
 * Creating Glow Effects with CSS and box shadowing 
 https://codersblock.com/blog/creating-glow-effects-with-css/
-* 
+* Checking for win in the tic-tac-toe game in JavaScript
+https://code.mu/en/javascript/book/practice/tick-tack-toe/victory-checking/
+* Game Outline https://www.youtube.com/watch?v=oZrp3Atkz18 
+* Font https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap
+* https://www.studytonight.com/post/building-a-tic-tac-toe-game-in-javascript
+* Inspiration file:///Users/Marinka/Downloads/unnamed.webp
+* css making website responsive  https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/#:~:text=too%20time%2Dconsuming.-,What%20are%20VW%20Units%3F,changes%20in%20your%20CSS%F0%9F%91%87
