@@ -2,13 +2,22 @@
 // let restartBtn = document.getElementById('restartBtn')
 // let boxes = Array.from(document.getElementsByClassName('box'))
 
-// const xPlayer = 'x'
-// const oPlayer = 'o'
 
-//* Defining player and simbols
+
+//* Defining player and simbols 
 const playerOne = "X";
 const playerTwo = "O";
-let currentPlayer = playerOne;
+let currentPlayer;
+// let currentPlayer = Math.floor(Math.random() * 2) === 0 ? playerOne : playerTwo;
+
+//* Randomly select the first player
+const randomIndex = Math.floor(Math.random() * 2);
+if (randomIndex < 1) {
+  currentPlayer = playerOne;
+} else {
+  currentPlayer = playerTwo;
+}
+console.log(randomIndex);
 
 //*  Getting DOM elements needed for game
 const cells = document.querySelectorAll(".box");
@@ -19,9 +28,9 @@ let scoreTwo = 0;
 
 //* Updating the player turn 
 function updatePlayerText() {
-  playerText.textContent = `${currentPlayer}'s turn`;
-  console.log(`Player ${currentPlayer} is taking their turn.`);
-}
+    playerText.textContent = `${currentPlayer}'s turn`;
+    console.log(`Player ${currentPlayer} is taking their turn.`);
+  }
 //* Switching  the current player
 function switchPlayer() {
   currentPlayer = currentPlayer === playerOne ? playerTwo : playerOne;
@@ -56,7 +65,7 @@ function endGame() {
   });
   console.log(`${currentPlayer} wins!`);
 }
-//* restarts the game by resetting the text content of each cell, adding click event listeners back to each cell, updating the player text to display the current player, and setting the current player to player one ("X").
+//* restarting the game by resetting the text content of each cell, adding click event listeners back to each cell, updating the player text to display the current player, and setting the current player to player one ("X").
 function restartGame() {
   cells.forEach((cell) => {
     cell.textContent = "";
