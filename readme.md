@@ -23,6 +23,27 @@ To start a new game, click the "Reset Game" button.
 - JavaScript
 - Dome 
 
+## Framework 
+The game board:
+The game board consists of a 3x3 grid of cells.
+Each cell can be clicked on to make a move.
+The game board should be clearly visible and easy to interact with.
+
+The player text:
+The player text should indicate whose turn it is.
+The player text should be located above or below the game board.
+The player text should be clearly visible and easy to read.
+
+The restart button:
+The restart button should be located below the game board or player text.
+The restart button should be clearly visible and easy to click on.
+The restart button should be labeled "Restart" or "New Game".
+
+The score:
+The score should indicate how many games each player has won.
+The score should be located below the game board or player text.
+The score should be clearly visible and easy to read.
+
 ## Resources 
 * Creating Glow Effects with CSS and box shadowing 
 https://codersblock.com/blog/creating-glow-effects-with-css/
