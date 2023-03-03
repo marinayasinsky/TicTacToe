@@ -2,6 +2,9 @@
 
 This is a simple two-player Tic Tac Toe game built using HTML, CSS, and JavaScript. The game features a responsive and visually attractive design, with a glowing effect that adds a touch of fun and excitement.
 
+
+https://marinayasinsky.github.io/TicTacToe/
+
 ## How to Play
 
 To play the game, simply click on the cell where you want to place your marker (`X` or `O`). The first player to get three in a row (horizontally, vertically, or diagonally) wins the game. If all cells are filled and there is no winner, the game is considered a tie.
@@ -54,3 +57,4 @@ https://code.mu/en/javascript/book/practice/tick-tack-toe/victory-checking/
 * https://www.studytonight.com/post/building-a-tic-tac-toe-game-in-javascript
 * Inspiration file:///Users/Marinka/Downloads/unnamed.webp
 * css making website responsive  https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/#:~:text=too%20time%2Dconsuming.-,What%20are%20VW%20Units%3F,changes%20in%20your%20CSS%F0%9F%91%87
+* https://betterprogramming.pub/play-tic-tac-toe-from-github-readme-md-file-754539603380

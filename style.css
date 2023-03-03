@@ -22,7 +22,7 @@ h1 {
 
 .container {
     padding: 10vw;
-    height: 100%;
+    height: 8;
     display: flex;
     justify-content: center;
     align-items: center;
