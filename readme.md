@@ -28,7 +28,6 @@ In this Tic Tac Toe game code, the Document Object Model (DOM) is used to manipu
 - HTML
 - CSS
 - JavaScript
-- Dome 
 
 
 
