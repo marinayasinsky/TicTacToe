@@ -20,6 +20,9 @@ To play the game simply  [visit my website](https://marinayasinsky.github.io/Tic
 - Keeps track of each player's score
 - Easy-to-use reset button to start a new game
 
+## DOM Manipulation 
+In this Tic Tac Toe game code, the Document Object Model (DOM) is used to manipulate HTML elements on the web page. The main features of the DOM that are used include accessing DOM elements using querySelector and querySelectorAll, modifying DOM element properties such as textContent and classList, adding and removing event listeners using addEventListener and removeEventListener, and updating CSS properties using the style property. These features allow the game to update the state of the game board, display the current player's turn, and respond to user actions such as clicking on a cell or restarting the game.
+
 ## Technologies Used
 
 - HTML
@@ -27,7 +30,6 @@ To play the game simply  [visit my website](https://marinayasinsky.github.io/Tic
 - JavaScript
 - Dome 
 
-## Framework 
 
 
 ## Resources 
