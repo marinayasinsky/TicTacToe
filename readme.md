@@ -21,8 +21,7 @@ To play the game simply  [visit my website](https://marinayasinsky.github.io/Tic
 - Easy-to-use reset button to start a new game
 - 
 ## WireFrame 
-![](tic tac toe.png)
-
+![alt text](https://github.com/marinayasinsky/TicTacToe/blob/main/tic%20tac%20toe.png)
 ## Technologies Used
 
 - HTML
