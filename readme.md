@@ -36,6 +36,5 @@ https://code.mu/en/javascript/book/practice/tick-tack-toe/victory-checking/
 * Game Outline https://www.youtube.com/watch?v=oZrp3Atkz18 
 * Font https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap
 * https://www.studytonight.com/post/building-a-tic-tac-toe-game-in-javascript
-* Inspiration file:///Users/Marinka/Downloads/unnamed.webp
 * css making website responsive  https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/#:~:text=too%20time%2Dconsuming.-,What%20are%20VW%20Units%3F,changes%20in%20your%20CSS%F0%9F%91%87
 * https://betterprogramming.pub/play-tic-tac-toe-from-github-readme-md-file-754539603380
