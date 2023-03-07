@@ -19,7 +19,7 @@ To play the game simply  [visit my website](https://marinayasinsky.github.io/Tic
 - Responsive layout that adapts to different screen sizes
 - Keeps track of each player's score
 - Easy-to-use reset button to start a new game
-- 
+
 ## WireFrame 
 ![alt text](https://github.com/marinayasinsky/TicTacToe/blob/main/tic%20tac%20toe.png)
 ## Technologies Used
@@ -27,8 +27,6 @@ To play the game simply  [visit my website](https://marinayasinsky.github.io/Tic
 - HTML
 - CSS
 - JavaScript
-
-
 
 ## Resources 
 * Creating Glow Effects with CSS and box shadowing 
